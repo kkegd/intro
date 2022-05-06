@@ -8,15 +8,15 @@ import cloud1 from './images/cloud2.png'
 import './App.css'
 import './index.css'
 
-const App: React.FC = () => {
+const Logo: React.FC = () => {
   return (
     <>
       <div className='top'>
         <div className='sky'>
-          <img src={cloud1} alt='‰_'></img>
-          <img src={cloud2} alt='‰_'></img>
+          <img src={cloud1} alt='ï¿½_'></img>
+          <img src={cloud2} alt='ï¿½_'></img>
         </div>
-        <img src={logoImage} alt='‰ù‚©‚µ‚ÌƒƒS' className='logo'></img>
+        <img src={logoImage} alt='ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½S' className='logo'></img>
         <MyName />
         <Menu />
       </div>
@@ -24,4 +24,4 @@ const App: React.FC = () => {
   )
 }
 
-export default App
+export default Logo
