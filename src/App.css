@@ -1,0 +1,84 @@
+.top {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+.logo {
+  width: 10vw;
+}
+.myName  {
+  height: 100vh;
+}
+.menu {
+  position: absolute;
+  right: 0;
+  padding: 30px 20px;
+  width: 100%;
+  top: auto;
+  bottom: 0;
+  text-align: center;
+}
+.menuButton {
+  display: inline-block;
+  padding: 0.3em 1em;
+  color: #333333;
+  transition: .2s;
+  margin: 1vh 1vw 1vh 1vw;
+}
+.menuButton:hover {
+  background: skyblue;
+  color: white;
+
+  border: solid 2px #111111;
+}
+
+.initial {
+  color: #111111;
+  font-size: 5em;
+}
+.fullName {
+  color: #111111;
+  font-size: 3em;
+}
+.explanation {
+  color: #333333;
+  font-size: 1em;
+}
+
+
+
+.sky {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.sky img {
+  width: auto;
+  height: 100%;
+}
+@keyframes loop {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes loop2 {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+}
+.sky img:first-child {
+  animation: loop 30s -0s linear infinite;
+}
+
+.sky img:last-child {
+  animation: loop2 5s linear infinite;
+}
