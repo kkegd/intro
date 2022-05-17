@@ -8,10 +8,10 @@ const Logo: React.FC = () => {
   return (
     <>
         <div className='sky'>
-          <img src={cloud1} alt='ï¿½_'></img>
-          <img src={cloud2} alt='ï¿½_'></img>
+          <img src={cloud1} alt='?¿½_'></img>
+          <img src={cloud2} alt='?¿½_'></img>
         </div>
-        <img src={logoImage} alt='ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½S' className='logo'></img>
+        <img src={logoImage} alt='?¿½?¿½?¿½?¿½?¿½?¿½?¿½Ì??¿½?¿½S' className='logo'></img>
     </>
   )
 }
